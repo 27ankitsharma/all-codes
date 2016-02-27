@@ -1,0 +1,40 @@
+{
+    "1": [
+        -1,
+        -1,
+        "o_0.jpg"
+    ],
+    "2": [
+        "o_2.jpg",
+        "o_1.jpg",
+        -1
+    ],
+    "3": [
+        "o_5.jpg",
+        "o_4.jpg",
+        "o_3.jpg"
+    ],
+   
+    "6": [
+        "o_7.jpg",
+        -1,
+        "o_6.jpg"
+    ],
+    "allTexturesNames": [
+		"o_0.jpg",
+        "o_1.jpg",
+        "o_2.jpg",
+        "o_3.jpg",
+        "o_4.jpg",
+        "o_5.jpg",
+        "o_6.jpg",
+        "o_7.jpg",
+		"o_8.jpg"
+    ],
+    "DatasetFilesNames": [
+        "1",
+        "2",
+        "3",
+        "6"
+    ]
+}

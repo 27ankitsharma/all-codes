@@ -1,3 +1,4 @@
+# This program implements Principal Component Analysis on 4 satellite Images and finds 4 principal components.
 #import matplotlib.pyplot as plt
 import numpy as np
 import Image as img

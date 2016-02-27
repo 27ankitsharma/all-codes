@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureDataStorage", "SecureDataStorage\SecureDataStorage.csproj", "{3E93256D-996A-4FE2-8754-81CF05AA9C41}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Secure_Data_Storage_set_up", "Secure_Data_Storage_set_up\Secure_Data_Storage_set_up.vdproj", "{854DA874-D0EF-4B81-B15C-8F493F89F9CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E93256D-996A-4FE2-8754-81CF05AA9C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E93256D-996A-4FE2-8754-81CF05AA9C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E93256D-996A-4FE2-8754-81CF05AA9C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E93256D-996A-4FE2-8754-81CF05AA9C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854DA874-D0EF-4B81-B15C-8F493F89F9CC}.Debug|Any CPU.ActiveCfg = Debug
+		{854DA874-D0EF-4B81-B15C-8F493F89F9CC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

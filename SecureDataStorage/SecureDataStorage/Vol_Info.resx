@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>To create a new volume you have to provide following inputs:
+1. Name of the drive
+2. Size for Drive (in MB)
+3. Letter for Drive-
+Precaution:This letter must not be associated with any drive.
+To check the status of free and used letters click on "Check Status" button.</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Now to create new drive click on "Create New Drive" button.A new virtual drive will be created in the VHD folder at the following path:
+E:\Project\SecureDataStorage\SecureDataStorage\Stuffs\VHD
+
+If you want to delete this drive you can simply browse the above mentioned folder and delete the drive like any simple file but it should be noted that the drive must be dismounted at this time.</value>
+  </data>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AwD8AAcA/AAPAPwAHwD8AD8A
+</value>
+  </data>
+</root>

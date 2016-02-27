@@ -1,0 +1,11 @@
+                stack.push(p0);
+		stack.push(p1);
+		stack.push(p2);
+		stack.push(p3);
+		stack.push(p4);
+		stack.push(p5);
+		stack.push(p6);
+		stack.push(p7);
+		stack.push(p8);
+		stack.push(p9);
+		stack.display();

@@ -1,0 +1,84 @@
+MyFind :-
+
+Implemented Options :
+ 1. -name
+ 2. -iname
+ 3. -maxdepth
+ 4. -mindepth
+ 5. -minMaxDepth
+ 6. -notname
+ 7. -inotname
+ 8. "path"
+ 9. -size "n"
+ 10.-size "+n"
+ 11.-size "-n"
+ 12. -regex "xyz*"
+ 13. -regex "*xyz"
+ 14. -abspath 1
+ 15. -abspath 0
+
+
+
+Usage :
+
+ 0.myFind 
+      it will display all the files with their relative paths inside the current directories and its subdirectories.
+
+ 1. myFind -name fileName   
+         With this option, myFind searches the input filename inside the current directories and its subdirectories and          displays found file names with their paths.                       
+
+ 2. myFind -iname fileName
+         Same as above but now myFind gets case insensitive for input filename.
+
+ 3. myFind -maxdepth n
+         With this option, myFind seraches the directories upto subdirectory level m as specified by -maxdepth option.
+         
+ 4. myFind -mindepth n
+         With this option, myFind begins seraching the directories from the subdirectory levels specified by -mindepth              option.
+
+ 5. myFind -minmaxdepth m n
+         With this option, myFind begins seraching the directories from the levels m and searches upto level n.
+
+ 6. myFind -notname filename
+         With this option, myFind seacrhes all the subdirectories with the file name not same as input "filename".
+
+ 7. myFind -inotname filename
+         With this option, myFind does the same thing as -notname as above but here it performs the case insensitive                search.
+
+ 8. myFind path
+	 With this option, myFind searches the files on the input path and further lower level subdirectories beyond path.
+
+ 9. myFind -size n
+	 With this option, myFind displays only those files which have exactly size n.Here n is size of file.It can be in           bytes(B), KB(K),MB(M) or GB(G).
+ 
+ 10.myFind -size +n
+	 With this option, myFind displays only those files which have size  more than n.Here n is size of file.It can be           in bytes(B), KB(K),MB(M) or GB(G).
+
+ 11.myFind -size -n
+	 With this option, myFind displays only those files which have size  less than n.Again here n is size of file.It          can be in bytes(B), KB(K),MB(M) or GB(G).
+	
+ 12. myFind -regex "*SomePattern"
+            or 
+ 13. myFind -regex "SomePattern*"
+         If user doesn't remember filenames exactly, He/She can user can search with inputting some pattern as described             above.Here it is to be noticed that pattern can be followed or preceded by * and must be surrounded by " ". 
+
+
+ 14. and 15. myFind -abspath 1 or 0
+         With this option myFind displays absolute or relative paths of the searched files in result.
+         With abspath 1, it shows absolute path and relative path on 0. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         

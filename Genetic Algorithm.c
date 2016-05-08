@@ -2,6 +2,7 @@
 Name : Ankit Sharma
 Course : M.Tech(CS)
 Roll NO : CS1429
+email: 27ankitsharma@gmail.com
 */
 
 #include<stdio.h>
